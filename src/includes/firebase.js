@@ -8,12 +8,13 @@ import { getFirestore, collection } from 'firebase/firestore'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyCTVt9ymcBj7luisgMPvtnrnp54t-cQerU',
-  authDomain: 'music-89979.firebaseapp.com',
-  projectId: 'music-89979',
-  storageBucket: 'music-89979.appspot.com',
-  messagingSenderId: '969425775114',
-  appId: '1:969425775114:web:4ed6c57179bea4b5f00df3'
+  apiKey: 'AIzaSyBs4HniVGnwwJAGtexCMHhc40Uvx2-hCkE',
+  authDomain: 'roudro-music.firebaseapp.com',
+  projectId: 'roudro-music',
+  storageBucket: 'roudro-music.appspot.com',
+  messagingSenderId: '209479905653',
+  appId: '1:209479905653:web:75e55b614d3a5bf948633c',
+  measurementId: 'G-MEC71KKCST'
 }
 
 // Initialize Firebase

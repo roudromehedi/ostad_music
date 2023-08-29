@@ -16,7 +16,8 @@ export const useUserStore = defineStore('user', {
         name: values.name,
         email: values.email,
         age: values.age,
-        country: values.country
+        country: values.country,
+        password: values.password
       })
 
       console.log('Document written with ID: ', docRef.id)
