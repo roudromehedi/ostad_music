@@ -16,8 +16,7 @@ export const useUserStore = defineStore('user', {
         name: values.name,
         email: values.email,
         age: values.age,
-        country: values.country,
-        password: values.password
+        country: values.country
       })
 
       console.log('Document written with ID: ', docRef.id)
@@ -37,6 +36,7 @@ export const useUserStore = defineStore('user', {
     async signOut() {
       await signOut(auth)
       this.userLoggedIn = false
+      window.location.reload()
     }
   }
 })
